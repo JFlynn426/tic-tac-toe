@@ -88,32 +88,21 @@ video {
 }
 h1 {
   text-align: center;
-  font-size: 10vw;
-  padding: 5vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
+  font-size: 5vh;
+  padding: 3vh;
 }
 h2 {
   text-align: center;
-  font-size: 5vw;
+  font-size: 3vh;
 }
 section {
-  margin-top: 2vw;
+  margin-top: 2vh;
   display: flex;
   justify-content: center;
 }
-.chooseXButton {
-  font-size: 5vw;
-  width: 20vw;
-  border-radius: 1vw;
-}
-.chooseOButton {
-  font-size: 5vw;
-  width: 20vw;
-  border-radius: 1vw;
-}
 .resetButton {
-  border-radius: 1vw;
-  font-size: 5vw;
+  border-radius: 1vh;
+  font-size: 3vh;
 }
 html {
   height: 100%;
@@ -122,82 +111,65 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-image: url('assets/model x.jpg');
+  background-size: auto 150vh;
+  background-position: center;
 }
 main {
   display: flex;
-  width: 90vw;
-  height: 90vw;
+  width: 75vh;
+  height: 75vh;
   margin: 5%;
 }
 p {
-  background-color: lightgrey;
-  width: 30vw;
-  height: 30vw;
+  width: 25vh;
+  height: 25vh;
 }
-.space0Button,
-.space1Button,
-.space2Button,
-.space3Button,
-.space4Button,
-.space5Button,
-.space6Button,
-.space7Button,
-.space8Button {
-  background-color: lightgrey;
-  width: 29.5vw;
-  height: 29.5vw;
+button {
+  margin: 0;
 }
-.space0 {
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+h2 {
+  font: 10vh;
+  padding: 0;
 }
-.space1 {
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+.board {
+  display: flex;
+  justify-content: center;
 }
-.space2 {
-  border-bottom: 1px solid black;
+#space0 {
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
 }
-.space3 {
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+#space1 {
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
 }
-.space4 {
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+#space2 {
+  border-bottom: 3px solid black;
 }
-.space5 {
-  border-bottom: 1px solid black;
+#space3 {
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
 }
-.space6 {
-  border-right: 1px solid black;
+#space4 {
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
 }
-.space7 {
-  border-right: 1px solid black;
+#space5 {
+  border-bottom: 3px solid black;
 }
-footer {
-  font-size: 3vw;
-  text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 1vw;
-  background-color: lightgrey;
-  color: white;
-  text-shadow: 0 0 0.5vw black;
+#space6 {
+  border-right: 3px solid black;
 }
-.hidden {
-  display: none;
+#space7 {
+  border-right: 3px solid black;
 }
-.Visability {
-  visibility: hidden;
+img {
+  width: 25vh;
+  height: 25vh;
 }
-.addX {
-  background-image: url(./assets/x.jpg);
-  background-size: 30vw;
-}
-.add0 {
-  background-image: url(./assets/o.jpg);
-  background-size: 30vw;
+#win {
+  padding: 5vh;
+  width: 75vh;
+  height: 50vh;
 }
